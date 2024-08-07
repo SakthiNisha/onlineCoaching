@@ -1,0 +1,22 @@
+/* src/components/Carousel.css */
+@keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .carousel-caption h3 {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .carousel-caption p {
+    animation: fadeInUp 1s ease-in-out;
+    animation-delay: 0.5s;
+  }
+  
