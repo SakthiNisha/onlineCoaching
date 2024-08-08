@@ -1,0 +1,33 @@
+/* src/components/Footer.css */
+.footer {
+    padding: 40px 0;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .footer h5 {
+    margin-bottom: 20px;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .text-center {
+    margin-top: 20px;
+  }
+  

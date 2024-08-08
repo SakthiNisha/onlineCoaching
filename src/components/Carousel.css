@@ -1,22 +1,32 @@
 /* src/components/Carousel.css */
-@keyframes fadeInUp {
-    from {
-      transform: translate3d(0, 40px, 0);
-      opacity: 0;
-    }
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   
-    to {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
-    }
+  .carousel-caption h3, .carousel-caption p {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
   }
   
   .carousel-caption h3 {
-    animation: fadeInUp 1s ease-in-out;
+    animation-delay: 0.5s;
   }
   
   .carousel-caption p {
-    animation: fadeInUp 1s ease-in-out;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   

@@ -1,0 +1,22 @@
+/* src/pages/Courses.css */
+.card-img-top {
+  height: 295px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.courses-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for content */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
