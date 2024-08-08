@@ -6,31 +6,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width:700px;
+    width: 700px;
   }
   
   .carousel-caption h3, .carousel-caption p {
     opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
+    transform: translate3d(1000px, -700px, -100px);
+    transition: transform 0.3s ease-in-out, opacity 0.1s ease-in-out;
   }
+  
+  .carousel-item.active .carousel-caption h3, .carousel-item.active .carousel-caption p {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  
   .carousel-title {
-    color:#fff;
-  }
-  .carousel-caption h3 {
-    animation-delay: 0.5s;
+    color: #fff;
   }
   
   .carousel-caption p {
-    animation-delay: 1s;
     font-size: 20px;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
   }
   

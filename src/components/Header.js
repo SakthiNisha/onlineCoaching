@@ -6,7 +6,7 @@ import './Header.css'; // Import the CSS file
 const Header = () => {
   return (
     <header className="fixed-top">
-      <div className="contact-info">
+      <div className="contact-info bg-warning">
         <span>Phone / WhatsAPP: +123 456 7890</span>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
