@@ -2,31 +2,40 @@
 .fixed-top {
     position: fixed;
     top: 57px;
-    left:47px;
-    right:47px;
+    left: 47px;
+    right: 47px;
     width: 92%;
     z-index: 1030;
   }
+  
   .header-brand-name {
     font-family: 'Open Sans', sans-serif;
-    font-size:30px;
+    font-size: 30px;
     font-weight: 900;
-    color:#3a3a3a;
-    text-transform:uppercase;
-    margin-left:151px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 151px;
   }
+  
   #navbarNav {
     padding-left: 178px;
-    height:90px;
+    height: 90px;
   }
+  
   .nav-item {
-    margin-right:40px;
+    margin-right: 40px;
   }
+  
   .header-link {
-    font-weight:700;
-    color:#3a3a3a;
-    text-transform:uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+  }
+  
+  .header-link.active {
+    color: #fff; /* Change this color to whatever you prefer for the active link */
+    font-weight: 900; /* Optionally make the active link bold */
   }
   
   body {
