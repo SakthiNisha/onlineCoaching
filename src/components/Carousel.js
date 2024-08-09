@@ -6,7 +6,7 @@ import './Carousel.css'; // Import the CSS file
 const TechCoachingCarousel = () => {
   const carouselItems = [
     {
-        src: process.env.PUBLIC_URL + '/images/slider_background.jpg',
+        src: process.env.PUBLIC_URL + '/images/carousel2.jpeg',
         title: 'Comprehensive Courses in Python, React, Node, MongoDB, and JavaScript',
         description: 'Unlock your potential with our comprehensive courses in todays most sought-after technologies. Our curriculum is designed to provide a deep understanding of'
     },
@@ -24,6 +24,7 @@ const TechCoachingCarousel = () => {
   ];
 
   return (
+    <div className='carousel-custom-style'>
     <Carousel>
       {carouselItems.map((item, index) => (
         <Carousel.Item key={index}>
@@ -39,6 +40,7 @@ const TechCoachingCarousel = () => {
         </Carousel.Item>
       ))}
     </Carousel>
+    </div>
   );
 };
 

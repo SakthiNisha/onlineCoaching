@@ -11,6 +11,14 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
+  .carousel-custom-style {
+    height:433px;
+  }
+  
+  .carousel-inner {
+    height:433px;
+  }
   
   .carousel-caption h3 {
     color: #fff;
