@@ -14,15 +14,15 @@ const Footer = () => {
               <li><Link to="/" className="text-white">Home</Link></li>
               <li><Link to="/courses" className="text-white">Courses</Link></li>
               <li><Link to="/about-us" className="text-white">About Us</Link></li>
-              <li><Link to="/testimonials" className="text-white">Testimonials</Link></li>
+              <li><Link to="/privacy-policy" className="text-white">Privacy Policy</Link></li>
             </ul>
           </div>
           <div className="col-md-4">
             <h5>Contact Info</h5>
             <ul className="list-unstyled">
-              <li>Address: 123 Tech Street, Tech City</li>
-              <li>Phone: +123 456 7890</li>
-              <li>Email: techcoaching@gmail.com</li>
+              {/*<li>Address: 123 Tech Street, Tech City</li>*/}
+              <li>Phone/WhatsApp: +91 9043550835</li>
+              <li>Email: snsntechno@gmail.com</li>
             </ul>
           </div>
           <div className="col-md-4">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center mt-4">
-          &copy; {new Date().getFullYear()} Tech Coaching Center. All rights reserved.
+        Copyright &copy; {new Date().getFullYear()} Sparkle technology. All rights reserved.
         </div>
       </div>
     </footer>

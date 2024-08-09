@@ -1,4 +1,12 @@
 /* src/pages/Courses.css */
+
+.courses-description {
+  font-size: 1.2rem;
+  color: #495057;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
 .card-img-top {
   height: 295px;
   object-fit: cover;

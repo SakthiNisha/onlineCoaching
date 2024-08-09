@@ -45,7 +45,6 @@ const courses = [
     image: process.env.PUBLIC_URL + '/images/mysql.jpg',
     link: '/courses/mysql'
   },
-  
   {
     title: 'JavaScript',
     description: 'Learn the fundamentals of JavaScript.',
@@ -64,25 +63,15 @@ const courses = [
     image: process.env.PUBLIC_URL + '/images/css.jpg',
     link: '/courses/css'
   },
-  
 ];
 
 const Courses = () => {
-  const backgroundImageStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/courses_background.jpg'})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundAttachment: 'fixed',
-    paddingTop: '56px', // Height of the fixed header
-    height: '330px' // Ensure the background covers the whole viewport
-  };
-
   return (
-    <>
-    <div style={backgroundImageStyle}> 
-        </div>
       <div className="container courses-content mt-4">
         <h1 className="mb-4">Our Courses</h1>
+        <p className="courses-description">
+          At Sparkle Technology, we offer a diverse range of courses tailored to equip you with the skills needed to thrive in today's tech-driven world. Whether you're a student stepping into the tech industry or a fresher looking to enhance your expertise, our courses are designed with you in mind. From mastering the fundamentals of programming to delving into advanced frameworks and cloud technologies, our curriculum is both comprehensive and practical. Join us and start your journey towards becoming a tech professional who stands out in the competitive job market.
+        </p>
         <div className="row">
           {courses.map((course, index) => (
             <div className="col-md-4 mb-4" key={index}>
@@ -98,7 +87,6 @@ const Courses = () => {
           ))}
         </div>
       </div>
-      </>
     
   );
 };

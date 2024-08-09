@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Courses from './pages/Courses';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
  
 function App(){
   return (
@@ -18,6 +19,7 @@ function App(){
             <Route path="/courses" element={<Courses />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />

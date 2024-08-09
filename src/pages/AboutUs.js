@@ -4,20 +4,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     
-        const backgroundImageStyle = {
-          backgroundImage: `url(${process.env.PUBLIC_URL + '/images/courses_background.jpg'})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-          paddingTop: '56px', // Height of the fixed header
-          height: '330px' // Ensure the background covers the whole viewport
-        };
-      
-
   return (
-    <>
-    <div style={backgroundImageStyle}> 
-        </div>
     <div className="about-us-container">
       <div className="container mt-4">
         <h1 className="mb-4">About Us</h1>
@@ -63,8 +50,7 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-    </>
-  );
+   );
 };
 
 export default AboutUs;

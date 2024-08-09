@@ -1,7 +1,15 @@
 /* src/pages/Contact.css */
-.contact-container {
-    background-color: #f8f9fa;
-    padding: 20px 0;
+
+.contact-description {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .contact-container {
+    padding: 40px 20px;
   }
   
   .form-group {
@@ -21,7 +29,7 @@
   }
   
   .contact-info {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   
   .contact-info h3 {

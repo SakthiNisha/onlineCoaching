@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="fixed-top">
       <div className="contact-info bg-warning">
-        <span>Phone / WhatsApp: +123 456 7890</span>
+        <span>Phone / WhatsApp: +91 9600836479</span>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         <NavLink className="navbar-brand header-brand-name" to="/">
