@@ -28,10 +28,10 @@ const Footer = () => {
           <div className="col-md-4">
             <h5>Follow Us</h5>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-white">Facebook</a></li>
-              <li><a href="#" className="text-white">Twitter</a></li>
-              <li><a href="#" className="text-white">LinkedIn</a></li>
-              <li><a href="#" className="text-white">Instagram</a></li>
+              <li><Link href="#" className="text-white">Facebook</Link></li>
+              <li><Link href="#" className="text-white">Twitter</Link></li>
+              <li><Link href="#" className="text-white">LinkedIn</Link></li>
+              <li><Link href="#" className="text-white">Instagram</Link></li>
             </ul>
           </div>
         </div>
