@@ -18,10 +18,39 @@
     color: #495057;
     margin-bottom: 15px;
     line-height: 1.6;
+    text-align: justify;
   }
   
   .container {
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .introduction-title {
+      font-size: 2rem;
+    }
+  
+    .introduction-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .introduction-title {
+      font-size: 1.75rem;
+    }
+  
+    .introduction-text {
+      font-size: 0.9rem;
+      text-align: left;
+    }
+  
+    .introduction-section {
+      padding: 20px 15px;
+      margin-top:-127px;
+    }
   }
   
