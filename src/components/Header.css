@@ -11,8 +11,8 @@
   
   .contact-info {
     position: fixed;
-    top: 0;
-    right: 20px;
+    top: -20px;
+    right: 0px;
     padding: 10px 20px;
     background-color: #f8f9fa;
     color: #343a40;
@@ -34,6 +34,10 @@
     font-weight: 900;
     color: #3a3a3a;
     text-transform: uppercase;
+  }
+  
+  navbar-toggler {
+    margin-top:62px;
   }
   
   #navbarNav {
