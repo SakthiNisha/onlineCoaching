@@ -12,10 +12,6 @@
     box-sizing: border-box;
   }
 
-  .carousel-custom-style {
-    height:600px;
-  }
-
   .carousel-inner {
     height:600px;
   }
@@ -55,6 +51,11 @@
     .carousel-caption {
       padding: 10px;
     }
+
+    .carousel-inner {
+        height:600px;
+        margin-top:50px;
+    }
   }
   
   @media (max-width: 576px) {
@@ -68,6 +69,11 @@
   
     .carousel-caption {
       padding: 5px;
+    }
+
+    .carousel-inner {
+        height:600px;
+        margin-top:50px;
     }
   }
   
