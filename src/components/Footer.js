@@ -21,7 +21,7 @@ const Footer = () => {
             <h5>Contact Info</h5>
             <ul className="list-unstyled">
               {/*<li>Address: 123 Tech Street, Tech City</li>*/}
-              <li>Phone/WhatsApp: +91 9043550835</li>
+              <li>Phone/WhatsApp: +91 9600836479</li>
               <li>Email: snsntechno@gmail.com</li>
             </ul>
           </div>

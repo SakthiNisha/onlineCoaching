@@ -27,6 +27,7 @@ const AboutUs = () => {
                   <li><strong>Hands-On Learning:</strong> Gain practical experience through real-world projects and interactive sessions.</li>
                   <li><strong>Personalized Mentoring:</strong> Receive one-on-one guidance and mentorship to help you achieve your career goals.</li>
                   <li><strong>Flexible Learning:</strong> Choose from a variety of learning modes, including online and in-person classes, to fit your schedule.</li>
+                  <li><strong>Pay Only When You're Satisfied:</strong> Your satisfaction is our top priority. Take your time to explore the course, work on projects, and experience our expert-led lessons. If you're happy with the knowledge and skills you've gained, only then do you pay for the course.</li>
                 </ul>
                 <h3>Our Expertise</h3>
                 <p>
