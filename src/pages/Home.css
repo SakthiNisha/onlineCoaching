@@ -4,6 +4,7 @@
     padding: 40px 20px;
     background-color: #f8f9fa;
     text-align: center;
+    margin-top: -30px;
   }
   
   .introduction-title {
@@ -36,6 +37,11 @@
     .introduction-text {
       font-size: 1rem;
     }
+
+    .introduction-section {
+        padding: 20px 15px;
+        margin-top:-296px;
+      }
   }
   
   @media (max-width: 576px) {
@@ -50,7 +56,7 @@
   
     .introduction-section {
       padding: 20px 15px;
-      margin-top:-127px;
+      margin-top:-374px;
     }
   }
   
