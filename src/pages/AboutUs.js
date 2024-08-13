@@ -12,7 +12,7 @@ const AboutUs = () => {
           <div className="col-md-12">
             <div className="card">
               <div className="card-body">
-                <h2>Welcome to Our Technology Coaching Center</h2>
+                <h2>Welcome to Sparkle Technology </h2>
                 <p>
                   With over 14 years of experience in the software IT industry, we are a team of dedicated professionals committed to empowering individuals through technology education. Our coaching center specializes in providing top-notch training, development, and mentoring services to help you excel in your tech career.
                 </p>
