@@ -1,42 +1,39 @@
 // src/pages/Contact.js
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Modal, Button } from 'react-bootstrap';
+import emailjs from '@emailjs/browser';
 import './Contact.css'; // Import the CSS file
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
-  });
-
   const [showModal, setShowModal] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
+  const form = useRef();
+  const nameRef = useRef(null);
+  const emailRef = useRef(null);
+  const phoneRef = useRef(null);
+  const messageRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log('Form data submitted:', formData);
-
-    // Reset the form fields to initial state
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: ''
-    });
-
-    // Show the modal upon form submission
-    setShowModal(true);
-  };
+    emailjs
+    .sendForm('service_fgtamyj', 'template_264hj1i', form.current, {
+      publicKey: '44XmV4QjbddK0axfN',
+    })
+    .then(
+      () => {
+        console.log('SUCCESS!');
+        nameRef.current.value = '';
+        emailRef.current.value = '';
+        phoneRef.current.value = '';
+        messageRef.current.value = '';
+        // Show the modal upon form submission
+        setShowModal(true);
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+      },
+    );
+ };
 
   const handleClose = () => setShowModal(false);
 
@@ -49,16 +46,15 @@ const Contact = () => {
         </p>
         <div className="row">
           <div className="col-md-6">
-            <form onSubmit={handleSubmit}>
+            <form ref={form} onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Name</label>
                 <input
-                  type="text"
+                  type="text" 
+                  ref={nameRef}
                   className="form-control"
                   id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
+                  name="from_name"
                   required
                 />
               </div>
@@ -66,11 +62,10 @@ const Contact = () => {
                 <label htmlFor="email">Email</label>
                 <input
                   type="email"
+                  ref={emailRef}
                   className="form-control"
                   id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
+                  name="user_email"
                   required
                 />
               </div>
@@ -78,23 +73,21 @@ const Contact = () => {
                 <label htmlFor="phone">Phone</label>
                 <input
                   type="tel"
+                  ref={phoneRef}
                   className="form-control"
                   id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
+                  name="user_phone"
                   required
                 />
               </div>
               <div className="form-group">
                 <label htmlFor="message">Message</label>
                 <textarea
+                  ref={messageRef}
                   className="form-control"
                   id="message"
                   name="message"
                   rows="5"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                 ></textarea>
               </div>
@@ -111,14 +104,13 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
       {/* Success Modal */}
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Success</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          You have successfully submitted the form. We will reach out to you soon!
+          You have successfully submitted. We will reach out to you soon!
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleClose}>
