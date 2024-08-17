@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         <NavLink className="navbar-brand header-brand-name" to="/">
-          <img src={process.env.PUBLIC_URL + '/images/career_bloom_logo.jpeg'} alt="Logo" className="header-logo" />
+          <img src={process.env.PUBLIC_URL + '/images/career_bloom_logo1.jpeg'} alt="Logo" className="header-logo" />
         </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
