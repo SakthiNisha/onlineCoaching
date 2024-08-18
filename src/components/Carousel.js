@@ -6,7 +6,7 @@ import './Carousel.css'; // Import the CSS file
 const TechCoachingCarousel = () => {
   const carouselItems = [
     {
-        src: process.env.PUBLIC_URL + '/images/onlineCourses.jpg',
+        src: process.env.PUBLIC_URL + '/images/Courses.jpg',
         
     },
     {
