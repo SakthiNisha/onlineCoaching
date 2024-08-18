@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
       <div className="container mt-4">
         <h1 className="mb-4">Privacy Policy</h1>
         <p>
-          At Sparkle Technology, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to ensure its security.
+          At Career Bloom Technologies, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to ensure its security.
         </p>
         <h3>Information We Collect</h3>
         <p>
