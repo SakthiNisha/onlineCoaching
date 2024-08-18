@@ -7,6 +7,9 @@ import Courses from './pages/Courses';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import './App.css';
  
 function App(){
   return (
@@ -23,6 +26,14 @@ function App(){
           </Routes>
         </main>
         <Footer />
+        <a 
+          href="https://wa.me/919600836479" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="whatsapp-icon"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+        </a>
       </div>
     </Router>
 
