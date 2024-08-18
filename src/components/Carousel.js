@@ -6,15 +6,15 @@ import './Carousel.css'; // Import the CSS file
 const TechCoachingCarousel = () => {
   const carouselItems = [
     {
-        src: process.env.PUBLIC_URL + '/images/banner12.jpg',
+        src: process.env.PUBLIC_URL + '/images/onlineCourses.jpg',
         
     },
     {
-      src: process.env.PUBLIC_URL + '/images/banner7.jpg',
+      src: process.env.PUBLIC_URL + '/images/dataScience.jpg',
       
     },
     {
-      src: process.env.PUBLIC_URL + '/images/banner9.jpg',
+      src: process.env.PUBLIC_URL + '/images/payment.jpg',
       
     }
     
