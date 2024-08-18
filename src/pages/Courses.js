@@ -16,6 +16,12 @@ const courses = [
     link: '/courses/react'
   },
   {
+    title: 'Data Science',
+    description: 'Learn the basics of Data Sceience.',
+    image: process.env.PUBLIC_URL + '/images/dataSceinceCourse.jpg',
+    link: '/courses/Data Science'
+  },
+  {
     title: 'NodeJs',
     description: 'Learn server-side development with NodeJs.',
     image: process.env.PUBLIC_URL + '/images/node.jpg',
