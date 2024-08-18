@@ -70,7 +70,7 @@ const Courses = () => {
       <div className="container courses-content mt-4">
         <h1 className="mb-4">Our Courses</h1>
         <p className="courses-description">
-          At Sparkle Technology, we offer a diverse range of courses tailored to equip you with the skills needed to thrive in today's tech-driven world. Whether you're a student stepping into the tech industry or a fresher looking to enhance your expertise, our courses are designed with you in mind. From mastering the fundamentals of programming to delving into advanced frameworks and cloud technologies, our curriculum is both comprehensive and practical. Join us and start your journey towards becoming a tech professional who stands out in the competitive job market.
+          At Career Bloom Technologies, we offer a diverse range of courses tailored to equip you with the skills needed to thrive in today's tech-driven world. Whether you're a student stepping into the tech industry or a fresher looking to enhance your expertise, our courses are designed with you in mind. From mastering the fundamentals of programming to delving into advanced frameworks and cloud technologies, our curriculum is both comprehensive and practical. Join us and start your journey towards becoming a tech professional who stands out in the competitive job market.
         </p>
         <div className="row">
           {courses.map((course, index) => (

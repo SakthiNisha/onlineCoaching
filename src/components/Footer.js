@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center mt-4">
-        Copyright &copy; {new Date().getFullYear()} Sparkle technology. All rights reserved.
+        Copyright &copy; {new Date().getFullYear()} Career Bloom Technologies. All rights reserved.
         </div>
       </div>
     </footer>
