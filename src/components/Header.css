@@ -1,74 +1,105 @@
 /* src/components/Header.css */
 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1030;
-  background-color: white; /* Ensure background color is consistent */
-}
-
-.contact-info {
-  position: fixed;
-  top: 0;
-  right: 20px;
-  padding: 10px 20px;
-  color: #343a40;
-  font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
-  z-index: 1040; /* Ensure it is above the navbar */
-  display: flex;
-  align-items: center;
-}
-
-.contact-icon {
-  color: #343a40;
-  margin-left: 15px;
-  transition: color 0.3s ease;
-}
-
-.contact-icon:hover {
-  color: #007bff; /* Change this color to whatever you prefer for hover */
-}
-
-.header-logo {
-  height: 100px; /* Adjust height as needed */
-  margin-right: 10px;
-}
-
-.header-brand-name {
-  display: flex;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 900;
-  color: #3a3a3a;
-  text-transform: uppercase;
-}
-
-#navbarNav {
-  padding-left: 178px;
-  height: 90px;
-}
-
-.nav-item {
-  margin-right: 40px;
-}
-
-.header-link {
-  font-weight: 700;
-  color: #3a3a3a;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.header-link.active {
-  color: #000; /* Change this color to whatever you prefer for the active link */
-  font-weight: 900; /* Optionally make the active link bold */
-}
-
-body {
-  padding-top: 70px; /* Adjust this value based on the height of your header and contact info */
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1050; /* Increased z-index to keep header on top */
+    background-color: white; /* Ensure background color is consistent */
+  }
+  
+  .contact-info {
+    position: absolute; /* Adjusted to absolute so it doesn't interfere with the header */
+    top: 0;
+    right: 20px;
+    padding: 10px 20px;
+    color: #343a40;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1050; /* Ensure it is above the navbar */
+    display: flex;
+    align-items: center;
+  }
+  
+  .whatsapp-icon-header {
+    display: flex;
+    align-items: center;
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .contact-number {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  .header-logo {
+    height: 70px; /* Adjust height as needed */
+    margin-right: 10px;
+  }
+  
+  .header-brand-name {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; /* Adjust font size for better responsiveness */
+    font-weight: 900;
+    color: #3a3a3a;
+    text-transform: uppercase;
+  }
+  
+  .navbar {
+    z-index: 1040; /* Navbar stays above other content but below the contact info */
+  }
+  
+  #navbarNav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .header-link {
+    font-weight: 700;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .header-link.active {
+    color: #000; /* Change this color to whatever you prefer for the active link */
+    font-weight: 900; /* Optionally make the active link bold */
+  }
+  
+  body {
+    padding-top: 100px; /* Adjust this value based on the height of your header and contact info */
+  }
+  
+  @media (max-width: 768px) {
+    .header-logo {
+      height: 50px; /* Reduce logo size on smaller screens */
+    }
+  
+    .header-brand-name {
+      font-size: 20px; /* Smaller font size for smaller screens */
+    }
+  
+    .contact-info {
+      right: 10px;
+      top: 5px;
+      padding: 5px 10px;
+    }
+  
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+  
+    body {
+      padding-top: 90px; /* Adjust padding for smaller screens */
+    }
+  }
+  

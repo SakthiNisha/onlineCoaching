@@ -6,6 +6,14 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Header.css'; // Import the CSS file
 
 const Header = () => {
+  // Function to handle closing the navbar on link click
+  const handleNavLinkClick = () => {
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbarCollapse.classList.contains('show')) {
+      navbarCollapse.classList.remove('show');
+    }
+  };
+
   return (
     <header className="fixed-top">
       <div className="contact-info">
@@ -15,7 +23,7 @@ const Header = () => {
           rel="noopener noreferrer"
           className="whatsapp-icon-header"
         >
-          <FontAwesomeIcon icon={faWhatsapp} size="2x" /><span>+91 9600836479</span>
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" /><span className="contact-number">+91 9600836479</span>
         </a>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
@@ -28,16 +36,16 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <NavLink className="nav-link header-link" exact to="/" activeClassName="active">Home</NavLink>
+              <NavLink className="nav-link header-link" exact to="/" activeClassName="active" onClick={handleNavLinkClick}>Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link header-link" to="/courses" activeClassName="active">Courses</NavLink>
+              <NavLink className="nav-link header-link" to="/courses" activeClassName="active" onClick={handleNavLinkClick}>Courses</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link header-link" to="/about-us" activeClassName="active">About Us</NavLink>
+              <NavLink className="nav-link header-link" to="/about-us" activeClassName="active" onClick={handleNavLinkClick}>About Us</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link header-link" to="/contact" activeClassName="active">Contact Us</NavLink>
+              <NavLink className="nav-link header-link" to="/contact" activeClassName="active" onClick={handleNavLinkClick}>Contact Us</NavLink>
             </li>
           </ul>
         </div>
