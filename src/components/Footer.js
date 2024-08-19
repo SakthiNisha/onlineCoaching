@@ -22,10 +22,10 @@ const Footer = () => {
             <ul className="list-unstyled">
               {/*<li>Address: 123 Tech Street, Tech City</li>*/}
               <li>Phone/WhatsApp: +91 9600836479</li>
-              <li>Email: snsntechno@gmail.com</li>
+              <li>Email: careerbloomtechnologies@gmail.com</li>
             </ul>
           </div>
-          <div className="col-md-4">
+         {/* <div className="col-md-4">
             <h5>Follow Us</h5>
             <ul className="list-unstyled">
               <li><Link href="#" className="text-white">Facebook</Link></li>
@@ -33,7 +33,7 @@ const Footer = () => {
               <li><Link href="#" className="text-white">LinkedIn</Link></li>
               <li><Link href="#" className="text-white">Instagram</Link></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="text-center mt-4">
         Copyright &copy; {new Date().getFullYear()} Career Bloom Technologies. All rights reserved.

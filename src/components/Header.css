@@ -1,67 +1,75 @@
 /* src/components/Header.css */
+
 .fixed-top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1030;
-    background-color: white; /* Ensure background color is consistent */
-  }
-  
-  .contact-info {
-    position: fixed;
-    top: -20px;
-    right: 0px;
-    padding: 10px 20px;
-    background-color: #f8f9fa;
-    color: #343a40;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-    z-index: 1040; /* Ensure it is above the navbar */
-  }
-  
-  .header-logo {
-    height: 100px; /* Adjust height as needed */
-    margin-right: 10px;
-  }
-  
-  .header-brand-name {
-    display: flex;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-    color: #3a3a3a;
-    text-transform: uppercase;
-  }
-  
-  navbar-toggler {
-    margin-top:29px;
-  }
-  
-  #navbarNav {
-    padding-left: 178px;
-    
-  }
-  
-  .nav-item {
-    margin-right: 40px;
-  }
-  
-  .header-link {
-    font-weight: 700;
-    color: #3a3a3a;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .header-link.active {
-    color: #000; /* Change this color to whatever you prefer for the active link */
-    font-weight: 900; /* Optionally make the active link bold */
-  }
-  
-  body {
-    padding-top: 70px; /* Adjust this value based on the height of your header and contact info */
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: white; /* Ensure background color is consistent */
+}
+
+.contact-info {
+  position: fixed;
+  top: 0;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 1040; /* Ensure it is above the navbar */
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  color: #343a40;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #007bff; /* Change this color to whatever you prefer for hover */
+}
+
+.header-logo {
+  height: 100px; /* Adjust height as needed */
+  margin-right: 10px;
+}
+
+.header-brand-name {
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #3a3a3a;
+  text-transform: uppercase;
+}
+
+#navbarNav {
+  padding-left: 178px;
+  height: 90px;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.header-link {
+  font-weight: 700;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-link.active {
+  color: #000; /* Change this color to whatever you prefer for the active link */
+  font-weight: 900; /* Optionally make the active link bold */
+}
+
+body {
+  padding-top: 70px; /* Adjust this value based on the height of your header and contact info */
+}

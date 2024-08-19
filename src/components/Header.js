@@ -1,13 +1,15 @@
 // src/components/Header.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Header.css'; // Import the CSS file
 
 const Header = () => {
   return (
     <header className="fixed-top">
       <div className="contact-info bg-warning">
-        <span>Phone / WhatsApp: +91 9600836479</span>
+        <span><FontAwesomeIcon icon={faWhatsapp} size="2x" />: +91 9600836479</span>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         <NavLink className="navbar-brand header-brand-name" to="/">

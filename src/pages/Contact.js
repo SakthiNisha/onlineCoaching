@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="container mt-4">
         <h1 className="mb-4">Contact Us</h1>
         <p className="contact-description">
-          We’d love to hear from you! Whether you’re curious about our courses, need assistance, or just want to share your thoughts, our team is here to help. At Sparkle Technology, we are committed to providing excellent support and answering any questions you may have. Please fill out the form below, and a member of our team will reach out to you shortly.
+          We’d love to hear from you! Whether you’re curious about our courses, need assistance, or just want to share your thoughts, our team is here to help. At Career Bloom Technologies, we are committed to providing excellent support and answering any questions you may have. Please fill out the form below, and a member of our team will reach out to you shortly.
         </p>
         <div className="row">
           <div className="col-md-6">
@@ -99,7 +99,7 @@ const Contact = () => {
             <ul className="list-unstyled">
              {/* <li><strong>Address:</strong> 123 Tech Street, Tech City</li>*/}
               <li><strong>Phone/WhatsApp:</strong> +91 9600836479</li>
-              <li><strong>Email:</strong> snsntechno@gmail.com</li>
+              <li><strong>Email:</strong> careerbloomtechnologies@gmail.com</li>
             </ul>
           </div>
         </div>
