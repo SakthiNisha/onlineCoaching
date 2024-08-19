@@ -17,7 +17,7 @@ const courses = [
   },
   {
     title: 'Data Science',
-    description: 'Learn the basics of Data Sceience.',
+    description: 'Learn the basics of Data Science.',
     image: process.env.PUBLIC_URL + '/images/dataSceinceCourse.jpg',
     link: '/courses/Data Science'
   },
