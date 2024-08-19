@@ -27,9 +27,19 @@
     border: none;
     padding: 10px 20px;
   }
+    
+  @media (max-width: 768px) {
+    .contact-info {
+        margin-top: 0px;
+        margin-right: 48px;
+    }
+  }
   
-  .contact-info {
-    margin-top: 20px;
+  @media (max-width: 576px) {
+    .contact-info {
+        margin-top: 0px;
+        margin-right: 48px;
+    }
   }
   
   .contact-info h3 {

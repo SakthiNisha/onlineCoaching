@@ -8,8 +8,15 @@ import './Header.css'; // Import the CSS file
 const Header = () => {
   return (
     <header className="fixed-top">
-      <div className="contact-info bg-warning">
-        <span><FontAwesomeIcon icon={faWhatsapp} size="2x" />: +91 9600836479</span>
+      <div className="contact-info">
+        <a 
+          href="https://wa.me/919600836479" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="whatsapp-icon-header"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" />+91 9600836479
+        </a>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         <NavLink className="navbar-brand header-brand-name" to="/">

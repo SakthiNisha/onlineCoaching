@@ -31,3 +31,32 @@
     padding: 10px;
   }
 }
+
+.whatsapp-icon-header {
+  background-color: #ffc107; /* WhatsApp's green color */
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-icon-header:hover {
+  background-color: #128C7E; /* Darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .whatsapp-icon-header {
+    bottom: 15px;
+    right: 15px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .whatsapp-icon-header {
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+  }
+}
