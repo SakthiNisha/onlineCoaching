@@ -5,7 +5,7 @@ import './Courses.css'; // Import the CSS file
 const courses = [
   {
     title: 'Python',
-    description: 'Learn the basics of Python programming.',
+    description: 'Learn the Python programming with frameworks.',
     image: process.env.PUBLIC_URL + '/images/python.jpg',
     link: '/courses/python'
   },
@@ -17,7 +17,7 @@ const courses = [
   },
   {
     title: 'Data Science',
-    description: 'Learn the basics of Data Science.',
+    description: 'Learn the power of Data Science.',
     image: process.env.PUBLIC_URL + '/images/dataSceinceCourse.jpg',
     link: '/courses/Data Science'
   },
@@ -53,13 +53,13 @@ const courses = [
   },
   {
     title: 'JavaScript',
-    description: 'Learn the fundamentals of JavaScript.',
+    description: 'Learn the fundamentals and advanced concept of JavaScript.',
     image: process.env.PUBLIC_URL + '/images/javascript.jpg',
     link: '/courses/javascript'
   },
   {
     title: 'HTML',
-    description: 'Learn the basics of HTML.',
+    description: 'Learn the web page creation with HTML.',
     image: process.env.PUBLIC_URL + '/images/html.jpg',
     link: '/courses/html'
   },
