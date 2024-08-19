@@ -33,7 +33,7 @@
 }
 
 .whatsapp-icon-header {
-  background-color: #ffc107; /* WhatsApp's green color */
+  background-color: #128C7E; /* WhatsApp's green color */
   color: white;
   border-radius: 50%;
   padding: 15px;
@@ -42,7 +42,7 @@
 }
 
 .whatsapp-icon-header:hover {
-  background-color: #128C7E; /* Darker green on hover */
+  background-color: #25D366; /* Darker green on hover */
 }
 
 @media (max-width: 768px) {

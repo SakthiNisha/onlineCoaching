@@ -15,7 +15,7 @@ const Header = () => {
           rel="noopener noreferrer"
           className="whatsapp-icon-header"
         >
-          <FontAwesomeIcon icon={faWhatsapp} size="2x" />+91 9600836479
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" /><span>+91 9600836479</span>
         </a>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
