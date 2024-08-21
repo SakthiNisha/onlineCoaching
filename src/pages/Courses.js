@@ -72,11 +72,11 @@ const courses = [
 ];
 
 const Courses = () => {
-    const handleViewMoreClick = (e) => {
-        e.preventDefault(); // Prevent the default link behavior
+    //const handleViewMoreClick = (e) => {
+      //  e.preventDefault(); // Prevent the default link behavior
         // You can add any other action here, like displaying a modal or an alert
         
-      };
+     // };
 
   return (
       <div className="container courses-content mt-4">
@@ -92,7 +92,7 @@ const Courses = () => {
                 <div className="card-body">
                   <h5 className="card-title">{course.title}</h5>
                   <p className="card-text">{course.description}</p>
-                  <a href={course.link} className="btn btn-warning" onClick={handleViewMoreClick}>View More</a>
+                  <a href="#/contact" className="btn btn-warning">View More</a>
                 </div>
               </div>
             </div>
