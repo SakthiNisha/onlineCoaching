@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
           If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at:
         </p>
         <p>
-          <strong>Email:</strong> snsntechno@gmail.com<br />
+          <strong>Email:</strong> careerbloomtechnologies@gmail.com<br />
           <strong>Phone:</strong> +91 9600836479
         </p>
       </div>
