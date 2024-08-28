@@ -1,0 +1,76 @@
+/* src/pages/EnglishWords.css */
+
+.english-words-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .alphabet-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .alphabet-link {
+    font-size: 1.5rem; /* Adjusted font size to ensure all letters fit in a single row */
+    margin: 0 8px; /* Smaller spacing between letters */
+    cursor: pointer;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .alphabet-link:hover {
+    transform: scale(1.1); /* Slightly enlarge the letter on hover */
+    text-decoration: underline;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .tabs button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .words-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .words-table th, .words-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .words-table th {
+    background-color: #f4f4f4;
+  }
+  
+  @media (max-width: 576px) {
+    .alphabet-link {
+      font-size: 1.2rem; /* Further adjust font size for smaller screens */
+      margin: 5px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
