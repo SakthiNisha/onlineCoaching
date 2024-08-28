@@ -7,67 +7,67 @@ const courses = [
     title: 'Python',
     description: 'Learn the Python programming with frameworks.',
     image: process.env.PUBLIC_URL + '/images/python.jpg',
-    link: '/courses/python'
+    link: '/#/contact'
   },
   {
     title: 'React',
     description: 'Learn how to build React applications.',
     image: process.env.PUBLIC_URL + '/images/react.jpg',
-    link: '/courses/react'
+    link: '/#/contact'
   },
   {
     title: 'Data Science',
     description: 'Learn the power of Data Science.',
     image: process.env.PUBLIC_URL + '/images/dataSceinceCourse.jpg',
-    link: '/courses/Data Science'
+    link: '/#/contact'
   },
   {
     title: 'NodeJs',
     description: 'Learn server-side development with NodeJs.',
     image: process.env.PUBLIC_URL + '/images/node.jpg',
-    link: '/courses/nodejs'
+    link: '/#/contact'
   },
   {
     title: 'MongoDB',
     description: 'Learn NoSQL database development with MongoDB.',
     image: process.env.PUBLIC_URL + '/images/mongodb.png',
-    link: '/courses/mongodb'
+    link: '/#/contact'
   },
   {
     title: 'Azure Cloud',
     description: 'Learn cloud computing with Azure.',
     image: process.env.PUBLIC_URL + '/images/azure.png',
-    link: '/courses/azure'
+    link: '/#/azure-syllabus'
   },
   {
     title: 'PHP',
     description: 'Learn server-side development with PHP.',
     image: process.env.PUBLIC_URL + '/images/php.png',
-    link: '/courses/php'
+    link: '/#/contact'
   },
   {
     title: 'Mysql',
     description: 'Learn SQL database development with Mysql.',
     image: process.env.PUBLIC_URL + '/images/mysql.jpg',
-    link: '/courses/mysql'
+    link: '/#/contact'
   },
   {
     title: 'JavaScript',
     description: 'Learn the fundamentals and advanced concept of JavaScript.',
     image: process.env.PUBLIC_URL + '/images/javascript.jpg',
-    link: '/courses/javascript'
+    link: '/#/contact'
   },
   {
     title: 'HTML',
     description: 'Learn the web page creation with HTML.',
     image: process.env.PUBLIC_URL + '/images/html.jpg',
-    link: '/courses/html'
+    link: '/#/contact'
   },
   {
     title: 'CSS',
     description: 'Learn how to style web pages with CSS.',
     image: process.env.PUBLIC_URL + '/images/css.jpg',
-    link: '/courses/css'
+    link: '/#/contact'
   },
 ];
 
@@ -92,7 +92,7 @@ const Courses = () => {
                 <div className="card-body">
                   <h5 className="card-title">{course.title}</h5>
                   <p className="card-text">{course.description}</p>
-                  <a href="#/contact" className="btn btn-warning">View More</a>
+                  <a href={course.link} className="btn btn-warning">View More</a>
                 </div>
               </div>
             </div>
