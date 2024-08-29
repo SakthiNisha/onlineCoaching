@@ -4,6 +4,14 @@ export const words = [
     { word: 'Ant', level: 'basic', meaning: 'A small insect', sentence: 'The ant is very hardworking.' },
     { word: 'Arm', level: 'intermediate', meaning: 'A limb of the body', sentence: 'He raised his arm to ask a question.' },
     { word: 'Adventure', level: 'intermediate', meaning: 'An unusual and exciting experience', sentence: 'Their journey to the mountains was a great adventure.' },
+    { word: 'Assertive', level: 'intermediate', meaning: 'Being assertive means confidently saying what you want or think without being rude.', sentence: 'She was assertive when she asked the teacher for extra help with her homework.' },
+    { word: 'Adopt', level: 'intermediate', meaning: '"Adopt" means to take something as your own, like an idea, practice, or even a child.', sentence: 'They decided to adopt a new way of working to improve their productivity.' },
+    { word: 'Afford', level: 'intermediate', meaning: '"Afford" means having enough money or resources to buy or do something.', sentence: 'I can\'t afford to buy a new car right now.' },
+    { word: 'Analyze', level: 'intermediate', meaning: '"Analyze" means to look at something carefully to understand it better.', sentence: 'The teacher asked us to analyze the poem and explain its meaning.' },
+    { word: 'Analysis', level: 'intermediate', meaning: '"Analysis" means a careful look at something to understand it better.', sentence: 'The doctor\'s analysis of the test results helped determine the right treatment.' },
+    { word: 'Alleviate', level: 'intermediate', meaning: '"Alleviate" means to make something less severe or painful.', sentence: 'he couldn\'t prevent her pain, only alleviate it' },
+    { word: 'Ascend', level: 'intermediate', meaning: '"Ascend" means to move or go up.', sentence: 'The balloon started to ascend into the sky.' },
+    
     { word: 'Ambitious', level: 'advanced', meaning: 'Having a strong desire for success', sentence: 'She is an ambitious person who always sets high goals.' },
     { word: 'Anticipate', level: 'advanced', meaning: 'To expect or predict', sentence: 'We anticipate a significant change in the market trends.' },
 
