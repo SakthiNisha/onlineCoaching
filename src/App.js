@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Courses from './pages/Courses';
 import AzureSyllabus from './pages/AzureSyllabus';
+import JavaScriptSyllabus from './pages/JavaScriptSyllabus'; 
 import EnglishPhrases from './pages/EnglishPhrases';
 import PhrasesByLetter from './pages/PhrasesByLetter';
 import EnglishWords from './pages/EnglishWords';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/azure-syllabus" element={<AzureSyllabus />} />
+            <Route path="/javascript-syllabus" element={<JavaScriptSyllabus />} />
             <Route path="/english-phrases" element={<EnglishPhrases />}>
               <Route path=":letter" element={<PhrasesByLetter />} /> {/* Display phrases by selected letter */}
             </Route>

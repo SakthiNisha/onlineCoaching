@@ -55,7 +55,7 @@ const courses = [
     title: 'JavaScript',
     description: 'Learn the fundamentals and advanced concept of JavaScript.',
     image: process.env.PUBLIC_URL + '/images/javascript.jpg',
-    link: '/#/contact'
+    link: '/#/javascript-syllabus'
   },
   {
     title: 'HTML',
