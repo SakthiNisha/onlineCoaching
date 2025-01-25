@@ -23,7 +23,7 @@ const Header = () => {
           rel="noopener noreferrer"
           className="whatsapp-icon-header"
         >
-          <FontAwesomeIcon icon={faWhatsapp} size="2x" /><span className="contact-number">+91 9600836479</span>
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" /><span className="contact-number">+5513436698</span>
         </a>
       </div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
